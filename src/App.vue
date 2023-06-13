@@ -5,7 +5,7 @@
   import axios from "axios";
   import { v4 as uuidv4 } from 'uuid'
 
-  let key = "a3ae32f6a6ea4fb9bc2f1cab26703302";
+  let key = "14aab6bd748840beb501bf071317bb42";
   let location = "francecentral";
   let endpoint = "https://api.cognitive.microsofttranslator.com";
 
