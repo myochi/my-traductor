@@ -11,6 +11,7 @@
     "axios": "^1.4.0",
     "devextreme": "22.2.6",
     "devextreme-vue": "22.2.6",
+    "flask": "^0.2.10",
     "uuid": "^9.0.0",
     "uuidv4": "^6.2.13",
     "vue": "^3.3.4"

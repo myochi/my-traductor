@@ -6,9 +6,6 @@
   import { v4 as uuidv4 } from 'uuid'
 
   let key = "a3ae32f6a6ea4fb9bc2f1cab26703302";
-  //let endpoint = "https://api.cognitive.microsofttranslator.com";
-      // location, also known as region.
-    // required if you're using a multi-service or regional (not global) resource. It can be found in the Azure portal on the Keys and Endpoint page.
   let location = "francecentral";
   let endpoint = "https://api.cognitive.microsofttranslator.com";
 
