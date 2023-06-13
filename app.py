@@ -42,7 +42,7 @@ def authorized():
         _save_cache(cache)
     except ValueError:  # Usually caused by CSRF
         pass  # Simply ignore them
-    return redirect(url_for("index.html"))
+    return redirect(url_for("index"))
 
 @app.route("/logout")
 def logout():
