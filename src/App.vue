@@ -1,9 +1,9 @@
 <script>
-  import DxTextArea from "devextreme-vue/text-area"
-  import DxSelectBox from "devextreme-vue/select-box"
-  import DxButton from "devextreme-vue/button"
+  import DxTextArea from "devextreme-vue/text-area";
+  import DxSelectBox from "devextreme-vue/select-box";
+  import DxButton from "devextreme-vue/button";
   import axios from "axios";
-  import { v4 as uuidv4 } from 'uuid'
+  import { v4 as uuidv4 } from 'uuid';
 
   let key = "14aab6bd748840beb501bf071317bb42";
   let location = "francecentral";
