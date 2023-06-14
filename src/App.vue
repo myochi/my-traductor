@@ -5,8 +5,11 @@
   import axios from "axios";
   import { v4 as uuidv4 } from 'uuid';
 
+//Clé d'identification du translator
   let key = "14aab6bd748840beb501bf071317bb42";
+//location du translator
   let location = "francecentral";
+//url pour les requêtes http
   let endpoint = "https://api.cognitive.microsofttranslator.com";
 
   export default {
@@ -26,6 +29,7 @@
       DxButton
     },
     methods:{
+      //fonction de traduction 
       async translate(){
         var textRes = await axios({
           baseURL: endpoint,
@@ -77,9 +81,11 @@
             };
             this.langages.push(objLanguage);
         }
+        //voir console dans le navigateur clic droit inspecter
         console.log(this.langages)
         console.log(this.langageFrom)
         console.log(this.langageTo)
+        //charge html du composant
         this.charged = true;
       }
     },
